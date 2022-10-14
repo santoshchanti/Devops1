@@ -1,0 +1,39 @@
+cat test1
+
+  335  git status
+
+  336  git add .
+
+  337  git status
+
+  338  echo " today is the great day"  >> test2
+
+  339  echo " today is the wrost day"  >> test1
+
+  340  git status
+
+  341  git add .
+
+  342  git status
+
+  343  git commit -m "fix(JIRA123): added file"
+
+  344  git status
+
+  345  git config --global user.email "kamalakar.m345@gmail.com"
+
+  346  git config --global user.name "kamalakar345"
+
+  347  git commit -m "fix(JIRA123): added file"
+
+  348  git remote add origin https://github.com/kamalakar345/Devops.git
+
+  349  git status
+
+  350  git checkout master
+
+  351  git push origin master
+
+  352  vim myfile
+
+hello how r u

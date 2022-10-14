@@ -1,0 +1,167 @@
+33  echo " this is someday" > test1
+
+  334  cat test1
+
+  335  git status
+
+  336  git add .
+
+  337  git status
+
+  338  echo " today is the great day"  >> test2
+
+  339  echo " today is the wrost day"  >> test1
+
+  340  git status
+
+  341  git add .
+
+  342  git status
+
+  343  git commit -m "fix(JIRA123): added file"
+
+  344  git status
+
+  345  git config --global user.email "kamalakar.m345@gmail.com"
+
+  346  git config --global user.name "kamalakar345"
+
+  347  git commit -m "fix(JIRA123): added file"
+
+  348  git remote add origin https://github.com/kamalakar345/Devops.git
+
+  349  git status
+
+  350  git checkout master
+
+  351  git push origin master
+
+  352  vim myfile
+
+  353  cat myfile 
+
+  354  git status
+
+  355  vim myfile2
+
+  356  git status
+
+  357  git add .
+
+  358  touch myfile3 myfile4
+
+  359  ls -ltr
+
+  360  git status
+
+  361  git add myfile4
+
+  362  git status
+
+  363  git restore --staged myfile4
+
+  364  git status
+
+  365  ls -la
+
+  366  cd .git
+
+  367  ls -ltr
+
+  368  git status
+
+  369  cd ../
+
+  370  git status
+
+  371  git add .
+
+  372  git commit -m " my fileds"
+
+  373  git status
+
+  374  git log --oneline
+
+  375  git push origin master
+
+  376  git log --oneline
+
+  377  git pull 
+
+  378  git pull master
+
+  379  git config --list
+
+  380  ls -la
+
+  381  cd .git
+
+  382  ls -ltr
+
+  383  cat config 
+
+  384  cd logs
+
+  385  ls -ltr
+
+  386  cat HEAD
+
+  387  cd ../
+
+  388  git pull https://github.com/kamalakar345/Devops.git master
+
+  389  git logs
+
+  390  git log
+
+  391  clear
+
+  392  git branch
+
+  393  git log --oneline
+
+  394  git branch
+
+  395  git branch --all
+
+  396  git checkout -b Dev
+
+  397  git branch
+
+  398  git log --online
+
+  399  git log --oneline
+
+  400  touch Dev1 Dev2 Dev3
+
+  401  git status
+
+  402  git add .
+
+  403  git commit -m " added files in Dev branch"
+
+  404  git push origin Dev
+
+  405  ls -ltr
+
+  406  git branch 
+
+  407  git checkout master
+
+  408  ls -ltr
+
+  409  touch master1 master2
+
+  410  git add .
+
+  411  git commit -m "added files to master"
+
+  412  git push origin master
+
+  413  git push origin :Dev
+
+  414  git branch -D Dev
+
+  415  history
+
+End of commands
